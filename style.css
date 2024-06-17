@@ -110,8 +110,19 @@ header ul li a:hover{
 
 .product-column{
   width: 30%;
+  padding: 10px;
 }
 
 .products-container img{
   width: 100%;
+}
+
+.product-column .add-to-cart{
+  background-color: orange;
+  color: black;
+}
+
+.product-column .add-to-cart:hover{
+  background-color: black;
+  color: lightgray;
 }
