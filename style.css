@@ -52,3 +52,48 @@ header ul li a{
 header ul li a:hover{
   color: orange;
 }
+
+.search-bar{
+  display: flex;
+  justify-content: space-between;
+  padding: 15px 30px;
+}
+
+.search-input{
+  width: 50%;
+}
+.search-bar .search-input input{
+  width:50%;
+  font-size: 1rem;
+  padding: 7px;
+}
+.search-bar .search-input .search{
+  background-color: lightgray;
+}
+
+.btn{
+  padding: 5px 18px;
+  font-size: 1.2rem;
+  border-radius: 4px;
+  font-weight: 400;
+  cursor: pointer;
+}
+
+.search-bar .login-signup .signup{
+  background-color: orange;
+}
+
+.search-bar .login-signup .signup:hover{
+  background-color: black;
+  color: orange;
+}
+
+.search-bar .login-signup .login{
+  background-color: black;
+  color: lightgray;
+}
+
+.search-bar .login-signup .login:hover {
+  background-color: lightgray;
+  color: black;
+}
