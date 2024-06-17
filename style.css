@@ -30,11 +30,11 @@ header ul{
 
 header ul li{
   list-style-type: none;
-  padding: 30px;
+  padding: 10px 20px;
 }
 
 header ul li img{
-  width: 36px;
+  width: 24px;
   margin: 5px;
 }
 
@@ -45,8 +45,8 @@ header ul li a{
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  font-size: 1.2rem;
-  font-weight: 400;
+  font-size: 1rem;
+  font-weight: 300;
 }
 
 header ul li a:hover{
@@ -65,7 +65,7 @@ header ul li a:hover{
 .search-bar .search-input input{
   width:50%;
   font-size: 1rem;
-  padding: 7px;
+  padding: 4px;
 }
 .search-bar .search-input .search{
   background-color: lightgray;
@@ -77,8 +77,8 @@ header ul li a:hover{
 }
 
 .btn{
-  padding: 5px 18px;
-  font-size: 1.2rem;
+  padding: 4px 14px;
+  font-size: 1rem;
   border-radius: 4px;
   font-weight: 400;
   cursor: pointer;
