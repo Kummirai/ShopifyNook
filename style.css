@@ -102,3 +102,16 @@ header ul li a:hover{
   background-color: lightgray;
   color: black;
 }
+
+.products-container{
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.product-column{
+  width: 30%;
+}
+
+.products-container img{
+  width: 100%;
+}
