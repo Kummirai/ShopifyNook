@@ -71,6 +71,12 @@ header ul li a:hover{
   background-color: lightgray;
 }
 
+.search-bar .search-input .search:hover{
+  background-color: black;
+  color: lightgray;
+}
+
+
 .btn{
   padding: 5px 18px;
   font-size: 1.2rem;
@@ -84,8 +90,8 @@ header ul li a:hover{
 }
 
 .search-bar .login-signup .signup:hover{
-  background-color: black;
-  color: orange;
+  background-color: lightgray;
+  color: black;
 }
 
 .search-bar .login-signup .login{
