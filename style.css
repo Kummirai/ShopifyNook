@@ -1,3 +1,54 @@
-body {
-    font-size: 15pt;
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+header{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #000;
+  padding: 0 30px;
+}
+
+header .logo .shop-logo{
+  color: white;
+  font-weight: 100;
+}
+
+header .logo .shop-logo span{
+  font-weight: 700;
+  color: orange;
+}
+
+header ul{
+  display: flex;
+  align-items: center;
+}
+
+header ul li{
+  list-style-type: none;
+  padding: 30px;
+}
+
+header ul li img{
+  width: 36px;
+  margin: 5px;
+}
+
+header ul li a{
+  text-decoration: none;
+  color: whitesmoke;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.2rem;
+  font-weight: 400;
+}
+
+header ul li a:hover{
+  color: orange;
 }
