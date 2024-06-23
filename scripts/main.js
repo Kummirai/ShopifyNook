@@ -19,7 +19,6 @@ const products = [
     priceInCents: 39900
   }]
 
-console.log(products)
 
 let search = document.querySelector('input');
 let searchBtn = document.querySelector('.search');
@@ -31,3 +30,33 @@ function searchProducts() {
   console.log(product)
   search.value ='';
 }
+
+products.forEach((product) => {
+  const html = `
+  <section class="products-container">
+    <div class="first product-column">
+      <img src="${products.image}">
+      <h4 class="product-name">${products.name}</h4>
+      <p>${products.description}</p>
+      <h5>$${(products.priceInCents)/100}</h5>
+      <button class="btn add-to-cart">Add to Cart</button>
+    </div>
+    <div class="second product-column">
+      <img src="${products.image}" alt="headphones" />
+      <h4 class="product-name">${products.name}</h4>
+      <p>${product.description}</p>
+      <h5>$${(products.priceInCents)/100}</h5>
+      <button class="btn add-to-cart">Add to Cart</button>
+    </div>
+    <div class="third product-column">
+      <img src="${products.image}" alt="mobile phone" />
+      <h4 class="product-name">${products.name}</h4>
+      <p>${products.description}</p>
+      <h5>$${products.priceInCents/100}</h5>
+      <button class="btn add-to-cart">Add to Cart</button>
+    </div>
+  </section>`;
+  
+  console.log(html)
+})
+
