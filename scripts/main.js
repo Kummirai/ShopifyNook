@@ -42,9 +42,7 @@ products.forEach((product) => {
       <h5>$${(product.priceInCents)/100}</h5>
       <button class="btn add-to-cart">Add to Cart</button>
     </div>
-  </section>`;
-})
-
-console.log(productsHTML)
+  </section>`
+});
 
 document.querySelector(".products-container").innerHTML = productsHTML;
