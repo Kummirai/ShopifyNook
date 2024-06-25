@@ -10,13 +10,13 @@ header{
   align-items: center;
   justify-content: space-between;
   background-color: #000;
-  padding: 0 30px;
+  padding: 0 20px;
 }
 
 header .logo .shop-logo{
   color: white;
   font-weight: 100;
-  font-size: 1.4rem;
+  font-size: 1.2rem;
 }
 
 header .logo .shop-logo span{
