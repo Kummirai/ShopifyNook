@@ -104,17 +104,39 @@ header ul li a:hover{
   color: black;
 }
 
+.main-page{
+  height: 80vh;
+  background-image: url('/images/background/pexels-freestocks-291762.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-bottom: 30px;
+}
+
+@media (max-width: 768px) {
+  .products-container {
+    grid-template-columns: repeat(3, auto);
+  }
+}
+
+
 .products-container{
-  display: flex;
-  justify-content: space-evenly;
+  display: grid;
+  grid-template-columns: repeat(4, auto);
+  grid-template-rows: repeat(15, auto);
+  column-gap: 3px;
+  grid-row-gap: 3px;
+  padding: 3px;
 }
 
 .product-column{
-  margin: 10px;
+  width: auto;
+  height: auto;
 }
 
 .products-container img{
   width: 100%;
+  border-radius: 3px;
 }
 
 .product-column .add-to-cart{
@@ -129,5 +151,11 @@ header ul li a:hover{
 }
 
 .product-column h4{
-  padding: 14px 0 5px 0;
+  padding: 10px 0 3px 0;
+  font-size: 1.1rem;
+  font-weight: 700;
+}
+.product-column p{
+  font-size: 0.8rem;
+  text-align: justify;
 }
