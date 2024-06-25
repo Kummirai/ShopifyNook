@@ -16,6 +16,7 @@ header{
 header .logo .shop-logo{
   color: white;
   font-weight: 100;
+  font-size: 1.4rem;
 }
 
 header .logo .shop-logo span{
@@ -34,7 +35,7 @@ header ul li{
 }
 
 header ul li img{
-  width: 24px;
+  width: 20px;
   margin: 5px;
 }
 
@@ -45,7 +46,7 @@ header ul li a{
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  font-size: 1rem;
+  font-size: 0.75rem;
   font-weight: 300;
 }
 
