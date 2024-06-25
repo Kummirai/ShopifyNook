@@ -39,7 +39,7 @@ products.forEach((product) => {
       <img src="${product.image}">
       <h4 class="product-name">${product.name}</h4>
       <p>${product.description}</p>
-      <h5>$${(product.priceInCents)/100}</h5>
+      <h5>$${((product.priceInCents)/100).toFixed(2)}</h5>
       <button class="btn add-to-cart">Add to Cart</button>
     </div>
   </section>`
