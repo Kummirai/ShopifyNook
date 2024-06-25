@@ -114,12 +114,16 @@ header ul li a:hover{
 }
 
 .products-container{
-  display: flex;
-  justify-content: space-evenly;
+  display: grid;
+  grid-template-columns: repeat(3, 300px);
+  grid-template-rows: repeat(15, auto);
+  column-gap: 10px;
+  grid-row-gap: 3px;
 }
 
 .product-column{
-  margin: 10px;
+  width: auto;
+  height: auto;
 }
 
 .products-container img{
