@@ -105,13 +105,20 @@ header ul li a:hover{
 }
 
 .main-page{
-  height: 90vh;
+  height: 80vh;
   background-image: url('/images/background/pexels-freestocks-291762.jpg');
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
   margin-bottom: 30px;
 }
+
+@media (max-width: 768px) {
+  .products-container {
+    grid-template-columns: repeat(3, auto);
+  }
+}
+
 
 .products-container{
   display: grid;
