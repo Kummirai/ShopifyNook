@@ -105,9 +105,11 @@ header ul li a:hover{
 }
 
 .main-page{
-  height: 80vh;
+  height: 90vh;
   background-image: url('/images/background/pexels-freestocks-291762.jpg');
   background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
   margin-bottom: 30px;
 }
 
@@ -122,6 +124,7 @@ header ul li a:hover{
 
 .products-container img{
   width: 100%;
+  border-radius: 3px;
 }
 
 .product-column .add-to-cart{
