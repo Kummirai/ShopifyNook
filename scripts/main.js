@@ -172,6 +172,20 @@ products.forEach((product) => {
       <img src="${product.image}">
       <h4 class="product-name">${product.name}</h4>
       <p>${product.description}</p>
+      <div class = "product-quantity-container" >
+            <select>
+              <option selected value="1">1</option>
+              <option value="2">2</option>
+              <option value="3">3</option>
+              <option value="4">4</option>
+              <option value="5">5</option>
+              <option value="6">6</option>
+              <option value="7">7</option>
+              <option value="8">8</option>
+              <option value="9">9</option>
+              <option value="10">10</option>
+            </select>
+      </div>
       <h5>$${((product.priceInCents)/100).toFixed(2)}</h5>
       <button class="btn add-to-cart">Add to Cart</button>
     </div>
