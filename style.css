@@ -144,10 +144,11 @@ header ul li a:hover{
 }
 
 .product-column h4{
-  padding: 14px 0 5px 0;
+  padding: 10px 0 3px 0;
   font-size: 1.1rem;
   font-weight: 700;
 }
 .product-column p{
   font-size: 0.8rem;
+  text-align: justify;
 }
