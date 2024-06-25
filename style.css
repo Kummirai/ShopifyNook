@@ -115,10 +115,11 @@ header ul li a:hover{
 
 .products-container{
   display: grid;
-  grid-template-columns: repeat(3, 300px);
+  grid-template-columns: repeat(4, auto);
   grid-template-rows: repeat(15, auto);
-  column-gap: 10px;
+  column-gap: 3px;
   grid-row-gap: 3px;
+  padding: 3px;
 }
 
 .product-column{
@@ -144,4 +145,9 @@ header ul li a:hover{
 
 .product-column h4{
   padding: 14px 0 5px 0;
+  font-size: 1.1rem;
+  font-weight: 700;
+}
+.product-column p{
+  font-size: 0.8rem;
 }
