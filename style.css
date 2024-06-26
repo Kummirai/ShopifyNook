@@ -136,7 +136,6 @@ header ul li a:hover{
 .product-column .add-to-cart{
   background-color: orange;
   color: black;
-  margin: 8px 0 0 0;
 }
 
 .product-column .add-to-cart:hover{
@@ -146,7 +145,7 @@ header ul li a:hover{
 
 .product-column h4{
   padding: 10px 0 3px 0;
-  font-size: 1.1rem;
+  font-size: 1rem;
   font-weight: 700;
 }
 .product-column p{
@@ -154,6 +153,11 @@ header ul li a:hover{
   text-align: justify;
 }
 
+.product-column h5{
+  font-size: 0.95rem;
+  padding: 8px;
+  font-weight: bold;
+}
 .image-modal{
   position: absolute;
   width: 100%;
