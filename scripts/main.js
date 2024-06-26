@@ -1,6 +1,6 @@
 const products = [
   {
-    image: "/images/products/africanDress1A.JPG",
+    image: "/images/products/africanDress1A.webp",
     name: "Canon Camera Lens",
     description: `50 mm Dual dynamic drivers <br>Ergonomic design<br>Adaptor<br>Extra bass sound`,
     priceInCents: 13400
