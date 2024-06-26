@@ -1,155 +1,54 @@
 const products = [
   {
-    image: "images/products/Camera Lens.jpg",
+    image: "/images/products/africanDress1A.JPG",
     name: "Canon Camera Lens",
     description: `Capture an astoundingly wide field - of - view <br>Perspective and create a sense of depth.<br>Keeping more of the scene in sharp focus. <br>Deep focus`,
     priceInCents: 13400
   }
   ,
   {
-    image: "images/products/Headphones.jpg",
+    image: "/images/products/AfricanDress2C.jpg",
     name: "Oneodio Pro 10",
     description: `50 mm Dual dynamic drivers <br>Ergonomic design<br>Adaptor<br>Extra bass sound`,
     priceInCents: 7550
   },
   {
-    image: "images/products/Mobile Phone.jpg",
+    image: "/images/products/africanDress3A.jpg",
     name: "Iphone 8 Plus",
     description: `Retina HD display<br>5.5 - inch(diagonal) widescreen LCD<br>Multi - Touch display with IPS technology <br>1920 - by - 1080 - pixel resolution at 401 ppi`,
     priceInCents: 39900
   },
   {
-    image: "images/products/Camera Lens.jpg",
+    image: "/images/products/africanDress4A.jpg",
     name: "Canon Camera Lens",
     description: `Capture an astoundingly wide field - of - view <br>Perspective and create a sense of depth.<br>Keeping more of the scene in sharp focus. <br>Deep focus`,
     priceInCents: 13400
   }
   ,
   {
-    image: "images/products/Headphones.jpg",
+    image: "/images/products/menAfrican1E.jpg",
     name: "Oneodio Pro 10",
     description: `50 mm Dual dynamic drivers <br>Ergonomic design<br>Adaptor<br>Extra bass sound`,
     priceInCents: 7550
   },
   {
-    image: "images/products/Mobile Phone.jpg",
+    image: "/images/products/menAfrican2A.jpg",
     name: "Iphone 8 Plus",
     description: `Retina HD display<br>5.5 - inch(diagonal) widescreen LCD<br>Multi - Touch display with IPS technology <br>1920 - by - 1080 - pixel resolution at 401 ppi`,
     priceInCents: 39900
   },
   {
-    image: "images/products/Camera Lens.jpg",
+    image: "/images/products/menAfrican3A.jpg",
     name: "Canon Camera Lens",
     description: `Capture an astoundingly wide field - of - view <br>Perspective and create a sense of depth.<br>Keeping more of the scene in sharp focus. <br>Deep focus`,
     priceInCents: 13400
   }
   ,
   {
-    image: "images/products/Headphones.jpg",
+    image: "/images/products/menAfrican4A.jpg",
     name: "Oneodio Pro 10",
     description: `50 mm Dual dynamic drivers <br>Ergonomic design<br>Adaptor<br>Extra bass sound`,
     priceInCents: 7550
-  },
-  {
-    image: "images/products/Mobile Phone.jpg",
-    name: "Iphone 8 Plus",
-    description: `Retina HD display<br>5.5 - inch(diagonal) widescreen LCD<br>Multi - Touch display with IPS technology <br>1920 - by - 1080 - pixel resolution at 401 ppi`,
-    priceInCents: 39900
-  },
-  {
-    image: "images/products/Camera Lens.jpg",
-    name: "Canon Camera Lens",
-    description: `Capture an astoundingly wide field - of - view <br>Perspective and create a sense of depth.<br>Keeping more of the scene in sharp focus. <br>Deep focus`,
-    priceInCents: 13400
-  }
-  ,
-  {
-    image: "images/products/Headphones.jpg",
-    name: "Oneodio Pro 10",
-    description: `50 mm Dual dynamic drivers <br>Ergonomic design<br>Adaptor<br>Extra bass sound`,
-    priceInCents: 7550
-  },
-  {
-    image: "images/products/Mobile Phone.jpg",
-    name: "Iphone 8 Plus",
-    description: `Retina HD display<br>5.5 - inch(diagonal) widescreen LCD<br>Multi - Touch display with IPS technology <br>1920 - by - 1080 - pixel resolution at 401 ppi`,
-    priceInCents: 39900
-  },
-    {
-    image: "images/products/Camera Lens.jpg",
-    name: "Canon Camera Lens",
-    description: `Capture an astoundingly wide field - of - view <br>Perspective and create a sense of depth.<br>Keeping more of the scene in sharp focus. <br>Deep focus`,
-    priceInCents: 13400
-  }
-  ,
-  {
-    image: "images/products/Headphones.jpg",
-    name: "Oneodio Pro 10",
-    description: `50 mm Dual dynamic drivers <br>Ergonomic design<br>Adaptor<br>Extra bass sound`,
-    priceInCents: 7550
-  },
-  {
-    image: "images/products/Mobile Phone.jpg",
-    name: "Iphone 8 Plus",
-    description: `Retina HD display<br>5.5 - inch(diagonal) widescreen LCD<br>Multi - Touch display with IPS technology <br>1920 - by - 1080 - pixel resolution at 401 ppi`,
-    priceInCents: 39900
-  },
-  {
-    image: "images/products/Camera Lens.jpg",
-    name: "Canon Camera Lens",
-    description: `Capture an astoundingly wide field - of - view <br>Perspective and create a sense of depth.<br>Keeping more of the scene in sharp focus. <br>Deep focus`,
-    priceInCents: 13400
-  }
-  ,
-  {
-    image: "images/products/Headphones.jpg",
-    name: "Oneodio Pro 10",
-    description: `50 mm Dual dynamic drivers <br>Ergonomic design<br>Adaptor<br>Extra bass sound`,
-    priceInCents: 7550
-  },
-  {
-    image: "images/products/Mobile Phone.jpg",
-    name: "Iphone 8 Plus",
-    description: `Retina HD display<br>5.5 - inch(diagonal) widescreen LCD<br>Multi - Touch display with IPS technology <br>1920 - by - 1080 - pixel resolution at 401 ppi`,
-    priceInCents: 39900
-  },
-  {
-    image: "images/products/Camera Lens.jpg",
-    name: "Canon Camera Lens",
-    description: `Capture an astoundingly wide field - of - view <br>Perspective and create a sense of depth.<br>Keeping more of the scene in sharp focus. <br>Deep focus`,
-    priceInCents: 13400
-  }
-  ,
-  {
-    image: "images/products/Headphones.jpg",
-    name: "Oneodio Pro 10",
-    description: `50 mm Dual dynamic drivers <br>Ergonomic design<br>Adaptor<br>Extra bass sound`,
-    priceInCents: 7550
-  },
-  {
-    image: "images/products/Mobile Phone.jpg",
-    name: "Iphone 8 Plus",
-    description: `Retina HD display<br>5.5 - inch(diagonal) widescreen LCD<br>Multi - Touch display with IPS technology <br>1920 - by - 1080 - pixel resolution at 401 ppi`,
-    priceInCents: 39900
-  },
-  {
-    image: "images/products/Camera Lens.jpg",
-    name: "Canon Camera Lens",
-    description: `Capture an astoundingly wide field - of - view <br>Perspective and create a sense of depth.<br>Keeping more of the scene in sharp focus. <br>Deep focus`,
-    priceInCents: 13400
-  }
-  ,
-  {
-    image: "images/products/Headphones.jpg",
-    name: "Oneodio Pro 10",
-    description: `50 mm Dual dynamic drivers <br>Ergonomic design<br>Adaptor<br>Extra bass sound`,
-    priceInCents: 7550
-  },
-  {
-    image: "images/products/Mobile Phone.jpg",
-    name: "Iphone 8 Plus",
-    description: `Retina HD display<br>5.5 - inch(diagonal) widescreen LCD<br>Multi - Touch display with IPS technology <br>1920 - by - 1080 - pixel resolution at 401 ppi`,
-    priceInCents: 39900
   }]
 
 
@@ -169,7 +68,7 @@ products.forEach((product) => {
   productsHTML += `
   <section class="products-container">
     <div class="product-column">
-      <img src="${product.image}">
+      <img class='products-image' src="${product.image}">
       <h4 class="product-name">${product.name}</h4>
       <p>${product.description}</p>
       <div class = "product-quantity-container" >
