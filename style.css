@@ -113,13 +113,6 @@ header ul li a:hover{
   margin-bottom: 30px;
 }
 
-@media (min-width: 1024px) {
-  .products-container {
-    grid-template-columns: repeat(6, auto);
-  }
-}
-
-
 .products-container{
   display: grid;
   grid-template-columns: repeat(4, auto);
@@ -166,4 +159,11 @@ header ul li a:hover{
   height: 100%;
   left: 0;
   top: 0;
+}
+
+
+@media only screen and (max-width: 768px) {
+  .products-container {
+    grid-template-columns: repeat(3, auto);
+  }
 }
