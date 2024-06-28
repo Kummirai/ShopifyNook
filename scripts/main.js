@@ -1,33 +1,33 @@
 const products = [
   {
     image: "/images/products/africanDress1A.webp",
-    name: "Canon Camera Lens",
+    name: "African Dress",
     description: `50 mm Dual dynamic drivers <br>Ergonomic design<br>Adaptor<br>Extra bass sound`,
-    priceInCents: 13400
+    priceInCents: 3400
   }
   ,
   {
     image: "/images/products/AfricanDress2C.jpg",
-    name: "Oneodio Pro 10",
+    name: "African Dress",
     description: `50 mm Dual dynamic drivers <br>Ergonomic design<br>Adaptor<br>Extra bass sound`,
-    priceInCents: 7550
+    priceInCents: 3999
   },
   {
     image: "/images/products/africanDress3A.jpg",
-    name: "Iphone 8 Plus",
+    name: "African dress",
     description: `50 mm Dual dynamic drivers <br>Ergonomic design<br>Adaptor<br>Extra bass sound`,
-    priceInCents: 39900
+    priceInCents: 3990
   },
   {
     image: "/images/products/africanDress4A.jpg",
-    name: "Canon Camera Lens",
+    name: "African Dress",
     description: `50 mm Dual dynamic drivers <br>Ergonomic design<br>Adaptor<br>Extra bass sound`,
-    priceInCents: 13400
+    priceInCents: 3489
   }
   ,
   {
     image: "/images/products/menAfrican1E.jpg",
-    name: "Oneodio Pro 10",
+    name: "Man African Attire",
     description: `50 mm Dual dynamic drivers <br>Ergonomic design<br>Adaptor<br>Extra bass sound`,
     priceInCents: 7550
   },
@@ -35,13 +35,13 @@ const products = [
     image: "/images/products/menAfrican2A.jpg",
     name: "Iphone 8 Plus",
     description: `50 mm Dual dynamic drivers <br>Ergonomic design<br>Adaptor<br>Extra bass sound`,
-    priceInCents: 39900
+    priceInCents: 3900
   },
   {
     image: "/images/products/menAfrican3A.jpg",
     name: "Canon Camera Lens",
     description: `50 mm Dual dynamic drivers <br>Ergonomic design<br>Adaptor<br>Extra bass sound`,
-    priceInCents: 13400
+    priceInCents: 1340
   }
   ,
   {
