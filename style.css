@@ -6,10 +6,11 @@
 }
 
 header{
+  width: 100%;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  background-color: #000;
+  background-color: #5F1529;
   padding: 0 20px;
 }
 
@@ -85,34 +86,69 @@ header ul li a:hover{
   cursor: pointer;
 }
 
-.search-bar .login-signup .signup{
+.login-signup .signup{
   background-color: orange;
+  font-size: 14px;
+  padding: 4px 14px;
 }
 
-.search-bar .login-signup .signup:hover{
+.login-signup .signup:hover{
   background-color: lightgray;
   color: black;
 }
 
-.search-bar .login-signup .login{
+.login-signup .login{
   background-color: black;
   color: lightgray;
+  margin: 30px 0;
+  font-size: 14px;
+  padding: 4px 14px;
 }
 
-.search-bar .login-signup .login:hover {
+.login-signup .login:hover {
   background-color: lightgray;
   color: black;
 }
 
 .main-page{
-  height: 60vh;
-  background-image: url('/images/background/pexels-anastasia-shuraeva-5705481.jpg');
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-  margin-bottom: 30px;
+  height: 80vh;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin: 30px 0;
+  /*background-color: #AC919B;*/
+  background-color: orange;
 }
 
+.main-page img{
+  height: 400px;
+  width: auto;
+}
+
+.main-page h1{
+  color: #fff;
+}
+
+.main-page h1>span{
+  font-size: 4rem;
+  font-weight: 700;
+  color: orange;
+}
+
+.main-page p{
+  font-size: 0.9rem;
+  font-weight: 200;
+  color: #E9673F;
+}
+.main-page .heading-div{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  background-color: #5F1529;
+  padding: 10px 80px;
+  border-radius: 8px;
+}
 .products-container{
   display: grid;
   grid-template-columns: repeat(5, auto);
