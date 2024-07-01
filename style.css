@@ -147,8 +147,9 @@ header ul li a:hover{
   align-items: flex-start;
   background-color: #5F1529;
   padding: 10px 80px;
-  border-radius: 8px;
+  border-radius: 4px;
 }
+
 .products-container{
   display: grid;
   grid-template-columns: repeat(5, auto);
@@ -221,6 +222,9 @@ header ul li a:hover{
 .product-column p {
   font-size: 0.75rem;
   text-align: justify;
+  }
+  .main-page{
+    height: 60vh;
   }
 }
   
