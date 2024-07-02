@@ -18,7 +18,6 @@ header .logo .shop-logo{
   color: white;
   font-weight: 100;
   font-size: 1.4rem;
-  background-color: black;
 }
 
 header .logo .shop-logo span{
@@ -26,12 +25,10 @@ header .logo .shop-logo span{
   color: orange;
 }
 .header .search-input{
-  background-color: black
 }
 header ul{
   display: flex;
   align-items: center;
-  background: black;
 }
 
 header ul li{
