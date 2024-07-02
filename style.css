@@ -9,7 +9,7 @@ header{
   width: 100%;
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: space-around;
   background-color: #5F1529;
   padding: 0 20px;
 }
@@ -18,16 +18,20 @@ header .logo .shop-logo{
   color: white;
   font-weight: 100;
   font-size: 1.4rem;
+  background-color: black;
 }
 
 header .logo .shop-logo span{
   font-weight: 700;
   color: orange;
 }
-
+.header .search-input{
+  background-color: black
+}
 header ul{
   display: flex;
   align-items: center;
+  background: black;
 }
 
 header ul li{
