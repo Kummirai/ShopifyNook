@@ -143,8 +143,14 @@ products.forEach((product) => {
 
 document.querySelector(".products-container").innerHTML = productsHTML;
 
+const cart = [];
+
 document.querySelector(".add-to-cart").forEach((button) => {
   button.addEventListener('click', () => {
-    console.log('button clicked');
-  })
-}
+    const productName = button.dataset.productName;
+    cart.push({
+      productName: productName,
+      quantity: 1
+    });
+  });
+});
