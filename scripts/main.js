@@ -148,6 +148,17 @@ const cart = [];
 document.querySelector(".add-to-cart").forEach((button) => {
   button.addEventListener('click', () => {
     const productName = button.dataset.productName;
+
+    let productExists;
+
+    cart.forEach((product) => {
+      if (productName === product.productName) {
+        productExists = product;
+        product.quantity++;
+        return;
+      }
+    });
+
     cart.push({
       productName: productName,
       quantity: 1
