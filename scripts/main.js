@@ -136,9 +136,15 @@ products.forEach((product) => {
             </select>
       </div>
       <h5>$${((product.priceInCents)/100).toFixed(2)}</h5>
-      <button class="btn add-to-cart">Add to Cart</button>
+      <button class="btn add-to-cart data-product-name ="${product.name}">Add to Cart</button>
     </div>
   </section>`
 });
 
 document.querySelector(".products-container").innerHTML = productsHTML;
+
+document.querySelector(".add-to-cart").forEach((button) => {
+  button.addEventListener('click', () => {
+    console.log('button clicked');
+  })
+}
